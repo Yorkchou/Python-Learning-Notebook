@@ -1,0 +1,13 @@
+1.Excel
+
+包含库：xlrd和xlwt pip安装
+
+1.1xlrd 主要用于Excel文件的读取
+
+打开一个
+workbook = xlrd.open_workbook('Workbook1.xlsx')
+
+获取sheet页的名字
+print(workbook.sheet_names())
+
+
